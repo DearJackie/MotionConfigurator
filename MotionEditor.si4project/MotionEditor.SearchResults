@@ -1,0 +1,8 @@
+---- m_log.LogWrite Matches (7 in 3 files) ----
+Log.cpp (MotionConfigurator) line 31 : bool CLog::LogWrite(const TCHAR *pBuf, TLOGTYPE enuType)
+CLog in Log.h (MotionConfigurator) : 	bool LogWrite(const TCHAR *pBuf, TLOGTYPE enuType = TLOGTYPE::LOG_TO_BOTH);
+CPCConfiguratorDlg::OnInitDialog in PCConfiguratorDlg.cpp (MotionConfigurator) : 	m_log.LogWrite(strBuf);
+CPCConfiguratorDlg::SendCommands in PCConfiguratorDlg.cpp (MotionConfigurator) : 			m_log.LogWrite(strBuf);
+CPCConfiguratorDlg::OnClickedBtnConnect in PCConfiguratorDlg.cpp (MotionConfigurator) : 		m_log.LogWrite(_T("Disconnect."));
+CPCConfiguratorDlg::OnClickedBtnConnect in PCConfiguratorDlg.cpp (MotionConfigurator) : 		m_log.LogWrite(_T("Connect..."));
+CPCConfiguratorDlg::OnClickedBtnConnect in PCConfiguratorDlg.cpp (MotionConfigurator) : 		m_log.LogWrite(strBuf);

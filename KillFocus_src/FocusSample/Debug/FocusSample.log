@@ -1,0 +1,34 @@
+﻿Build started 2017/8/31 16:43:00.
+     1>Project "C:\Work\Tools\MotionConfigurator\KillFocus_src\FocusSample\FocusSample.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp".\Debug\FocusSample.pch" /Fo".\Debug\\" /Fd".\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt StdAfx.cpp
+         StdAfx.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp".\Debug\FocusSample.pch" /Fo".\Debug\\" /Fd".\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt FocusSample.cpp FocusSampleDlg.cpp MyBaseDialog.cpp
+         MyBaseDialog.cpp
+         FocusSampleDlg.cpp
+     1>c:\work\tools\motionconfigurator\killfocus_src\focussample\focussampledlg.cpp(143): error C2664: 'int CComboBox::AddString(LPCTSTR)' : cannot convert argument 1 from 'const char [8]' to 'LPCTSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>c:\work\tools\motionconfigurator\killfocus_src\focussample\focussampledlg.cpp(144): error C2664: 'int CComboBox::AddString(LPCTSTR)' : cannot convert argument 1 from 'const char [7]' to 'LPCTSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>c:\work\tools\motionconfigurator\killfocus_src\focussample\focussampledlg.cpp(148): error C2664: 'int CListBox::AddString(LPCTSTR)' : cannot convert argument 1 from 'const char [8]' to 'LPCTSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>c:\work\tools\motionconfigurator\killfocus_src\focussample\focussampledlg.cpp(149): error C2664: 'int CListBox::AddString(LPCTSTR)' : cannot convert argument 1 from 'const char [19]' to 'LPCTSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>c:\work\tools\motionconfigurator\killfocus_src\focussample\focussampledlg.cpp(150): error C2664: 'int CListBox::AddString(LPCTSTR)' : cannot convert argument 1 from 'const char [8]' to 'LPCTSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>c:\work\tools\motionconfigurator\killfocus_src\focussample\focussampledlg.cpp(151): error C2664: 'int CListBox::AddString(LPCTSTR)' : cannot convert argument 1 from 'const char [7]' to 'LPCTSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>c:\work\tools\motionconfigurator\killfocus_src\focussample\focussampledlg.cpp(152): error C2664: 'int CListBox::AddString(LPCTSTR)' : cannot convert argument 1 from 'const char [9]' to 'LPCTSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>c:\work\tools\motionconfigurator\killfocus_src\focussample\focussampledlg.cpp(217): error C2664: 'bool ATL::COleDateTime::ParseDateTime(LPCTSTR,DWORD,LCID) throw()' : cannot convert argument 1 from 'const char [11]' to 'LPCTSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+         FocusSample.cpp
+     1>c:\work\tools\motionconfigurator\killfocus_src\focussample\focussample.cpp(52): warning C4996: 'CWinApp::Enable3dControls': CWinApp::Enable3dControls is no longer needed. You should remove this call.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxwin.h(5178) : see declaration of 'CWinApp::Enable3dControls'
+         Generating Code...
+     1>Done Building Project "C:\Work\Tools\MotionConfigurator\KillFocus_src\FocusSample\FocusSample.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.48

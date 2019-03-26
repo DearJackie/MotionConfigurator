@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceInsightBookmarks
+	AppVer="4.00.0086"
+	AppVerMinReader="4.00.0009"
+	>
+	<Bookmarks>
+		<Mark
+			Name="0861774760343032807102"
+			Comment="ParamList"
+			File="MotionConfigurator\PCConfiguratorDlg.cpp"
+			Line="575"
+			Column="0"
+			Symbol="CPCConfiguratorDlg.GetCtrlParameterInfo"
+			SymbolInstance="4"
+			SymbolType="Member Function"
+			LineOffset="2"
+			/>
+		<Mark
+			Name="0861105761343032807102"
+			Comment="CmdList"
+			File="MotionConfigurator\PCConfiguratorDlg.cpp"
+			Line="503"
+			Column="0"
+			Symbol="CPCConfiguratorDlg.GetTriggerCmdList"
+			SymbolInstance="3"
+			SymbolType="Member Function"
+			LineOffset="2"
+			/>
+	</Bookmarks>
+</SourceInsightBookmarks>
